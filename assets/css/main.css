@@ -2703,7 +2703,6 @@ input, select, textarea {
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
-						opacity: 0;
 					}
 
 			.tiles article.style1 > .image:before {
