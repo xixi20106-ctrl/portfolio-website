@@ -2703,14 +2703,7 @@ input, select, textarea {
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
-						opacity: 0;
-						transition: opacity 0.3s ease;
 					}
-
-					/* 鼠标悬停时显示标题 */
-					.tiles article:hover > a h2 {
-						opacity: 1;
-					}	
 
 			.tiles article.style1 > .image:before {
 				background-color: #758ca5;
@@ -3336,3 +3329,14 @@ input, select, textarea {
 			}
 
 		}
+		
+/* 卡片标题：默认隐藏 */
+#main .tiles article > a h2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* 鼠标悬停时显示标题 */
+#main .tiles article:hover > a h2 {
+    opacity: 1;
+}
