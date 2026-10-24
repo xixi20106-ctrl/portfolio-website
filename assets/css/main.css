@@ -120,6 +120,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
+		opacity: 0
 		line-height: 1.75;
 	}
 
@@ -2764,7 +2765,7 @@ input, select, textarea {
 		}
 
 		body.is-touch .tiles article .content {
-			max-height: 150em;
+			max-height: 15em;
 			opacity: 1;
 		}
 
