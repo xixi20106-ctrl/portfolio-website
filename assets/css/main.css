@@ -2687,7 +2687,6 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
-					opacity: 0;
 				}
 
 				.tiles article > a .content {
@@ -2700,11 +2699,11 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
-					opacity: 0;
 				}
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
+						opacity: 0;
 					}
 
 			.tiles article.style1 > .image:before {
