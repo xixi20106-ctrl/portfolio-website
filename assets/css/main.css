@@ -209,6 +209,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		opacity: 0;
 	}
 
 	h3 {
@@ -3330,13 +3331,3 @@ input, select, textarea {
 
 		}
 		
-/* 卡片标题：默认隐藏 */
-#main .tiles article > a h2 {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-/* 鼠标悬停时显示标题 */
-#main .tiles article:hover > a h2 {
-    opacity: 1;
-}
